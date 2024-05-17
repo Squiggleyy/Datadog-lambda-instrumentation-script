@@ -11,3 +11,5 @@ Notes:
 4. If a Lambda function is already instrumented with the Datadog tracer, the CLI will skip the function. No changes will be made to the function, even if it is running an old tracer version.
    
 5. Tracer versions can be controlled with the -v and -e tags in step 5.
+
+6. To uninstrument any Lambda functions, simply replace the command "instrument" on Line 29 with "uninstrument."
